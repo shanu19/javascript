@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+  <p id="shanu1"></p>
+  <p id="shanu2"></p>
+  <p id="shanu3"></p>
+<script>
+    var num = [4,1,4,3,9,12];
+         num.sort(function(x, y){
+    return x - y;
+});
+window.write(num);
+document.getElementById("shanu1").innerHTML = num;
+</script>
+
+
+<script>
+var foods = ["rice", "pizza", "sandwich", "rolls"];
+  foods.pop();
+  foods.pop();
+window.write(foods);
+  foods.push("cake");
+window.write(foods);
+  foods.shift();
+window.write(foods);
+  document.getElementById("shanu2").innerHTML = foods;
+</script>
+
+
+<script>
+var fruits = ["Apple"];
+  fruits.splice(0,0, "Pineapple", "Lemon");
+window.write(fruits);
+  fruits.splice(3, 0, "Orange", "Peach");
+window.write(fruits);
+window.write(fruit[2]);
+window.write("----------------------END---------");
+
+for (i = fruit.length-1; i => 0;i--) {
+for (i = fruit.length-1; i >= 0;i--) {
+   window.write(fruit[i]);
+ }
+ document.getElementById("shanu3").innerHTML = fruits;
+</script>
+
+</body>
+</html>

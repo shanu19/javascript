@@ -1,8 +1,8 @@
 <html>
 <body>
 
-<p id="demo"></p>
-<p id="dem"></p>
+<p id="s1"></p>
+<p id="s2"></p>
 <p id="fruits"></p>
 <p id="fruit"></p>
 <p id="number"></p>
@@ -11,18 +11,18 @@
 <p id="Fruits"></p>
 <p id="Fru"></p>
 
+
 <script>
 var number = [10, 20, 30, 40, 50, 60,70];
-document.getElementById("demo").innerHTML = Max(number);
+document.getElementById("s1").innerHTML = Max(number);
 function Max(max) {
     return Math.max.apply(null, max);
 }
 var number = [10, 20, 30, 40, 50, 60,70];
-document.getElementById("dem").innerHTML = Min(number);
+document.getElementById("s2").innerHTML = Min(number);
 function Min(min) {
     return Math.min.apply(null, min);
 }
-
 
 var fruits=["Apple","Banana"];
 document.getElementById("fruits").innerHTML=fruits;
@@ -31,13 +31,12 @@ document.getElementById("fruits").innerHTML=fruits;
 fruits.reverse();
 document.getElementById("fruit").innerHTML=fruits;
 </script>
+
+
 <script>
-
-
 var num=[4,1,8,3,9,12];
 num.sort();
 document.getElementById("number").innerHTML=number;
-
 
 var foods = ["rice", "pizza", "sandwich", "rolls"];
 document.getElementById("foods").innerHTML=foods;
@@ -46,7 +45,6 @@ foods.pop();
 foods.push("Samsa");
 foods.shift();
 document.getElementById("food").innerHTML=foods;
-
 
 var Fruits = ["Apple"];
 Fruits.splice(0,0,"Pineapple","Lemon");
