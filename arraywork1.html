@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="shanu">
+<script>
+var color= ["red", "black", "blue", "pink", "green", 1]
+document.getElementById("shanu").innerHTML = color;
+
+  color.push("yellow");
+  document.getElementById("shanu").innerHTML = color;
+
+  color.pop();
+  document.getElementById("shanu").innerHTML = color;
+
+  color.shift();
+  document.getElementById("shanu").innerHTML =color;
+
+color.unshift();
+document.getElementById("shanu").innerHTML =color;
+
+color[3]="white"
+document.getElementById("shanu").innerHTML =color;
+
+color.splice(2, 0, "purple", "maroon");
+    document.getElementById("shanu").innerHTML = color;
+
+    color.splice(0, 1);
+    document.getElementById("shanu").innerHTML = color;
+}
+
+</script>
+</body>
+</html>
